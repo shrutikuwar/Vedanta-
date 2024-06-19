@@ -1,0 +1,1701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body-fixed">
+    <!-- start of header  -->
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="vedanta.png" width="60" height="70" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="main-navigation">
+                        <button class="menu-toggle"><span></span><span></span></button>
+                        <nav class="header-menu">
+                            <ul class="menu food-nav-menu">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#menu">Menu</a></li>
+                                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-right">
+                            <form action="#" class="header-search-form for-des">
+                                <input type="search" class="form-input" placeholder="Search Here...">
+                                <button type="submit">
+                                    <i class="uil uil-search"></i>
+                                </button>
+                            </form>
+                            
+                            <a href="javascript:void(0)" class="header-btn header-cart">
+                                <i class="uil uil-shopping-bag"></i>
+                                <span class="cart-number">3</span>
+                            </a>
+                            <a href="javascript:void(0)" class="header-btn">
+                                <i class="uil uil-user-md"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends  -->
+
+    <div id="viewport">
+        <div id="js-scroll-content">
+            <section class="main-banner" id="home">
+                <div class="js-parallax-scene">
+                    <div class="banner-shape-1 w-100" data-depth="0.30">
+                        <img src="assets/images/BG IMAGE/download.jpeg" alt="">
+                    </div>
+                    <div class="banner-shape-2 w-100" data-depth="0.25">
+                        <img src="assets/images/BG IMAGE/2.png" alt="">
+                    </div>
+                </div>
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner-text">
+                                    <h1 class="h1-title">
+                                        Savor the Sweet Symphony of
+                                        <span>VEDANTA!</span></h1>
+                                    <p>Step into the world of Vedanta, a haven where artisanal confections are crafted with passion and precision. Experience the magic of our sweet symphony, where each treat is a harmonious blend of exquisite flavors, inviting you to savor moments of pure joy with every delectable bite.</p>
+                                    <div class="banner-btn mt-4">
+                                        <a href="#menu" class="sec-btn">Check our Menu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banner-img-wp">
+                                    <div class="banner-img" style="background-image: url(assets/images/cherrycake-2364372_1920.jpg);">
+                                    </div>
+                                </div>
+                                <div class="banner-img-text mt-4 m-auto">
+                                    <h5 class="h5-title">Cherry Bliss Cake</h5>
+                                    <p>A fruity delight bursting with love, each slice kissed by the special cherries on top.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="brands-sec">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="brand-title mb-5">
+                                <h5 class="h5-title">Trusted by 70+ companies</h5>
+                            </div>
+                            <div class="brands-row">
+                                <div class="brands-box">
+                                    <img src="assets\images\brands\swiggy.png" alt="" width="150" height="100">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets\images\brands\Zomato.png" alt="" width="150" height="100">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets\images\brands\eatsure.png" alt="" width="150" height="100">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets\images\brands\uber eats.png" alt="" width="150" height="100">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets\images\brands\foodpanda.jpeg" alt="" width="150" height="100">
+                                </div>
+                                <div class="brands-box">
+                                    <img src="assets\images\brands\eatfit.png" alt="" width="150" height="100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-sec section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <h1><p class="sec-sub-title mb-3">About Us</p></h1>
+                                <h2 class="h2-title">Uncover the Narrative of Our<span>Culinary Haven</span></h2>
+                                <div class="sec-title-shape mb-4">
+                                    <img src="assets\images\gold-curly-ribbon.png" alt="" height="150px">
+                                </div>
+                                <p>In the heart of our quaint town lies a treasure trove of sweetness, where every confection tells a story of craftsmanship and love. From the delicate dance of caramelized sugar to the symphony of flavors in our handcrafted delights, each creation at our sweet shop is a testament to our dedication to the art of sweetness. Step into our cozy haven, where every visit is a journey into a world of delectable wonders, leaving you with memories as sweet as the treats you savor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8 m-auto">
+                            <div class="about-video">
+                                <div class="about-video-img" style="background-image: url(assets/images/new/preview.png);">
+                                </div>
+                                <div class="play-btn-wp">
+                                    <a href="assets\images\new\video.mp4" data-fancybox="video" class="play-btn">
+                                        <i class="uil uil-play"></i>
+
+                                    </a>
+                                    <span>Watch The Recipe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="background-image: url(assets/images/menu-bg.png);"
+                class="our-menu section bg-light repeat-img" id="menu">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <h1><p class="sec-sub-title mb-3">our menu</p></h1>
+                                    <h2 class="h2-title">A Moment of Respite,<span>Sweetness of Life</span></h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets\images\gold-curly-ribbon.png" alt="" width="150px" height="100px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-tab-wp">
+                            <div class="row">
+                                <div class="col-lg-12 m-auto">
+                                    <div class="menu-tab text-center">
+                                        <ul class="filters">
+                                            <div class="filter-active"></div>
+                                            <li class="filter" data-filter=".all, .ladoo, .barfi, .cakes">
+                                                <img src="assets\images\menu\menu1.jpg" alt="" width="30px" height="25px">
+                                                All
+                                            </li>
+                                            <li class="filter" data-filter=".ladoo">
+                                                <img src="assets\images\menu\menu2.jpeg" alt="" width="30px" height="25px">
+                                                Ladoo
+                                            </li>
+                                            <li class="filter" data-filter=".barfi">
+                                                <img src="assets\images\menu\menu3.jpg" alt="" width="30px" height="25px">
+                                                Barfi
+                                            </li>
+                                            <li class="filter" data-filter=".cakes">
+                                                <img src="assets\images\menu\menu4.jpg" alt="" width="30px" height="25px">
+                                                Cakes
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-list-row">
+                            <div class="row g-xxl-5 bydefault_show" id="menu-dish">
+                                <div class="col-lg-4 col-sm-6 dish-box-wp ladoo" data-cat="ladoo">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\dish1.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Yellow Motichoor Laddu</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>5</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 400 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button><br>
+
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                      
+                                                      
+                                                      
+                                                      
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp ladoo" data-cat="ladoo">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\dish2.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            4.8
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Orange Motichoor Ladoo</h3>
+                                            <p>180 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>5</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 359 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp ladoo" data-cat="ladoo">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\dish3.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            4
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Besan Ladoo</h3>
+                                            <p>100 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>5</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 499 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 4 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp ladoo" data-cat="ladoo">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\dish4.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            4.5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Saunth & Dry Fruits Ladoo</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 379 / 250g</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp barfi" data-cat="barfi">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\kaju1.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Kaju Katli</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 6 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp barfi" data-cat="barfi">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\khoya1.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Khoya Barfi</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 7 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp barfi" data-cat="barfi">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\mysore.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Mysore Pak</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 8 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp barfi" data-cat="barfi">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\pista.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Pista Barfi</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 9 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp barfi" data-cat="barfi">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\sonpapdi.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Soan Papdi</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 10 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp barfi" data-cat="barfi">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\choc.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Chocolate Barfi</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 11 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp barfi" data-cat="barfi">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\coco.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Coconut Barfi</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 12 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp cakes" data-cat="cakes">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\cake1.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Strawberry Swiss Roll</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="red">Non Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 13 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp cakes" data-cat="cakes">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\cake2.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Pink Rose Petal Cake</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 14 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp cakes" data-cat="cakes">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\cake3.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Blue Moon Cake</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="red">Non Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 15 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp cakes" data-cat="cakes">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\cake5.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Cranberry Waffle</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="red">Non Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 16 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp cakes" data-cat="cakes">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\cake6.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Strawberry Cheesecake</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="green">Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 17 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp cakes" data-cat="cakes">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="assets\images\dishes\cake4.jpg" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Mug Cake</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b><font color="red">Non Veg</font></b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>4</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 699 / Kg</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <i class="uil uil-plus"></i>
+                                                    </button>
+                                                    <button class="heart-btn" aria-label="Add to Favorites">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                                          <path class="heart-outline" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 1.19 4.5 2.45C13.09 4.19 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                                                          <path class="heart-fill" d="M16.5 3c-1.74 0-3.41 1.19-4.5 2.45C10.41 4.19 9.74 3 8 3 4.93 3 2.5 5.42 2.5 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 14.55L12 18.18l-1.1-1.03C7.6 14.36 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.6 5.86-7.1 9.05z"/>
+                                                        </svg>
+                                                      </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="two-col-sec section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                            <div class="sec-img mt-5">
+                                <img src="assets\images\dishes\comb1.png" alt="" width="500px">
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="sec-text">
+                                <h2 class="xxl-title">Pastries Combo</h2>
+                                <p>Embark on a delectable journey with our exquisite Pastries Combo, meticulously curated to elevate your indulgence to new heights. Delight in a symphony of flavors and textures, where each pastry is a masterpiece of artistry and taste. Whether savoring the buttery richness of our croissants, the delicate layers of our éclairs, or the luscious fillings of our tarts, this collection promises a harmonious blend of culinary craftsmanship and pure pleasure. </p>
+                                <p>Each bite of our Pastries Combo is a journey into refined indulgence, meticulously crafted to elevate your moments of joy. It stands as a testament to the elegance found in every delicate layer, the exquisite taste that dances on your palate, and the artistry of fine patisserie. Immerse yourself in the symphony of flavors and textures, where every pastry is a celebration of taste, inviting you to savor the art of sweetness in its purest form.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="two-col-sec section pt-0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-lg-1 order-2">
+                            <div class="sec-text">
+                                <h2 class="xxl-title">Special Dry Fruits Cake</h2>
+                                <p>Delight in the opulence of our Special Dry Fruits Cake, a decadent masterpiece meticulously crafted to elevate your senses. Each bite unfolds a symphony of flavors, blending the richness of premium nuts and succulent fruits into a harmonious melody of indulgence. Handpicked almonds, luscious apricots, and plump raisins are delicately folded into our velvety batter, creating a symmetrical dance of textures and tastes. Perfectly moist and exquisitely balanced, this artisanal creation promises a moment of pure bliss with every forkful.</p>
+                                <p>Allow our Special Dry Fruits Cake to grace your celebrations with an air of elegance, infusing each gathering with warmth and joy. Whether marking cherished milestones or simply savoring life's sweetest moments, this timeless classic emerges from our kitchen, a testament to craftsmanship and culinary passion. Let it become the centerpiece of your table, inviting loved ones to partake in a symphony of flavors that linger long after the last crumb is savored. Embrace the essence of tradition, elevate your indulgences, and create lasting memories with every exquisite slice.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-lg-2 order-1">
+                            <div class="sec-img">
+                                <img src="assets\images\dishes\comb2.png" alt="" width=500px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="book-table section bg-light">
+                <div class="book-table-shape">
+                    <img src="assets/images/table-leaves-shape.png" alt="">
+                </div>
+
+                <div class="book-table-shape book-table-shape2">
+                    <img src="assets/images/table-leaves-shape.png" alt="">
+                </div>
+
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <h1><p class="sec-sub-title mb-3">Book Table</p><h1>
+                                    <h2 class="h2-title">Opening Table</h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets\images\gold-curly-ribbon.png" alt="" width="150px" height="100px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="book-table-info">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <div class="table-title text-center">
+                                        <h3>Monday to Thrusday</h3>
+                                        <p>9:00 A.M. - 22:00 P.M.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="call-now text-center">
+                                        <i class="uil uil-phone"></i>
+                                        <a href="tel:+91-1234567890">+91 - 1234567890</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="table-title text-center">
+                                        <h3>Friday to Sunday</h3>
+                                        <p>11::00 A.M. to 20:00 P.M.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row" id="gallery">
+                            <div class="col-lg-10 m-auto">
+                                <div class="book-table-img-slider" id="icon">
+                                    <div class="swiper-wrapper">
+                                        <a href="assets/images/GALLERY/1.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/GALLERY/1.jpg)"></a>
+
+                                        <a href="assets/images/GALLERY/2.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/GALLERY/2.jpg)"></a>
+
+                                        <a href="assets/images/GALLERY/3.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/GALLERY/3.jpg)"></a>
+
+                                        <a href="assets/images/GALLERY/4.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/GALLERY/4.jpg)"></a>
+
+                                        <a href="assets/images/GALLERY/1.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/GALLERY/1.jpg)"></a>
+                                            
+                                        <a href="assets/images/GALLERY/2.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/GALLERY/2.jpg)"></a>
+
+                                        <a href="assets/images/GALLERY/3.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/GALLERY/3.jpg)"></a>
+
+                                        <a href="assets/images/GALLERY/4.jpg" data-fancybox="table-slider"
+                                            class="book-table-img back-img swiper-slide"
+                                            style="background-image: url(assets/images/GALLERY/4.jpg)"></a>
+                                    </div>
+
+                                    <div class="swiper-button-wp">
+                                        <div class="swiper-button-prev swiper-button">
+                                            <i class="uil uil-angle-left"></i>
+                                        </div>
+                                        <div class="swiper-button-next swiper-button">
+                                            <i class="uil uil-angle-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="our-team section">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <h1><p class="sec-sub-title mb-3">Our Team</p></h1>
+                                    <h2 class="h2-title">Our Strength</h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets\images\gold-curly-ribbon.png" alt="" width="150px" height="100px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row team-slider">
+                            <div class="swiper-wrapper">
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(assets/images/chef/1.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">ABC</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(assets/images/chef/2.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">LMN</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(assets/images/chef/3.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">QRS</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(assets/images/chef/4.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">UVW</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(assets/images/chef/5.jpg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">XYZ</h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-wp">
+                                <div class="swiper-button-prev swiper-button">
+                                    <i class="uil uil-angle-left"></i>
+                                </div>
+                                <div class="swiper-button-next swiper-button">
+                                    <i class="uil uil-angle-right"></i>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials section bg-light">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <h1><p class="sec-sub-title mb-3">What they say</p></h1>
+                                    <h2 class="h2-title">What our customers <span>say about us</span></h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets\images\gold-curly-ribbon.png" alt="" width="150px" height="100px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="testimonials-img">
+                                    <img src="assets/images/testimonial-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/1.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:85%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    ABC
+                                                </h3>
+                                                <p>Best sweets I ever had in my life...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/2.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:80%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    UVW
+                                                </h3>
+                                                <p>Best sweet shop!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/3.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:89%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    QRS
+                                                </h3>
+                                                <p>Flavourful delicacies served!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(assets/images/testimonials/4.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:100%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    XYZ
+                                                </h3>
+                                                <p>Really nice sweets!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faq-sec section-repeat-img" style="background-image: url(assets/images/faq-bg.png);">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <h1><p class="sec-sub-title mb-3">faqs</p></h1>
+                                    <h2 class="h2-title">Frequently <span>asked questions</span></h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets\images\gold-curly-ribbon.png" alt="" width="150px" height="100px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="faq-row">
+                            <div class="faq-box">
+                                <h4 class="h4-title">What are the login hours?</h4>
+                                <p>Our sweet shop website is open 24/7 for your browsing pleasure! While the stores open at 9 AM to 22.00 PM on Monday-Thursday and 11 AM to 22:00 PM on Friday- Sunday. Whether it's morning, noon, or night, you can always log in to explore our delectable offerings.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-title">What do i get my refund?</h4>
+                                <p>Your satisfaction is our priority! In the rare case of any dissatisfaction, we offer a refund policy. Please reach out to our customer service team within 24 hours of your purchase, and we'll swiftly process your refund.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-title">How long it will take food to arrive?</h4>
+                                <p>We understand your excitement to enjoy our sweets! Typically, our deliveries take around 30-45 minutes, depending on your location. Rest assured, we strive to get our treats to your doorstep as swiftly as possible.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-title">Does your restaurant has both veg and non veg?</h4>
+                                <p>Yes, we cater to all tastes! Our sweet shop proudly offers a diverse menu with both vegetarian and non-vegetarian delights. From sumptuous vegetarian barfis to flavorful non-vegetarian treats, there's something for everyone.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-title">What is cost of food delivery?</h4>
+                                <p>Enjoy the convenience of doorstep delivery! Our standard delivery fee is minimal and varies based on your location. You can view the exact cost during checkout before placing your order.</p>
+                            </div>
+                            <div class="faq-box">
+                                <h4 class="h4-title">Who is eligible for pro membership?</h4>
+                                <p>Our Pro Membership is designed to reward our loyal customers! To be eligible, simply sign up for our newsletter or create an account on our website. As a Pro Member, you'll enjoy exclusive discounts, early access to new products, and special promotions tailored just for you.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+
+            <div class="bg-pattern bg-light repeat-img"
+                style="background-image: url(assets/images/blog-pattern-bg.png);">
+                <section class="blog-sec section" id="blog">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="sec-title text-center mb-5">
+                                        <h1><p class="sec-sub-title mb-3">Our blog</p></h1>
+                                        <h2 class="h2-title">Latest Publications</span></h2>
+                                        <div class="sec-title-shape mb-4">
+                                            <img src="assets\images\gold-curly-ribbon.png" alt="" width="150px" height="100px">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="blog-box">
+                                        <div class="blog-img back-img"
+                                            style="background-image: url(assets/images/blog/3.jpg);"></div>
+                                        <div class="blog-text">
+                                            <p class="blog-date">September.15.2023</p>
+                                            <a href="#" class="h4-title">Lavendar Barfi which you can make at home.</a>
+                                            <p>Experience the delicate allure of Lavender Barfi, a sublime confection that embodies elegance in every bite. Crafted with care and precision, this artisanal delight marries the floral notes of lavender with the creamy richness of traditional barfi, creating a symphony of flavors that dance on your palate. Handcrafted in small batches, each piece is a testament to meticulous attention to detail, ensuring a perfect balance of sweetness and sophistication. Elevate your senses with Lavender Barfi, a treat that beckons you to savor the essence of luxury, now available for your indulgence at home.</p>
+                                            <a href="#" class="sec-btn">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="blog-box">
+                                        <div class="blog-img back-img"
+                                            style="background-image: url(assets/images/blog/2.jpg);"></div>
+                                        <div class="blog-text">
+                                            <p class="blog-date">October.15.2023</p>
+                                            <a href="#" class="h4-title">Orange Flavoured jalebi with Pista Rabdi.</a>
+                                            <p>Savor the exquisite harmony of tradition and innovation with our Orange Flavored Jalebi paired delicately with Pista Rabdi. Immerse yourself in the tantalizing allure of these golden spirals, delicately infused with the vibrant zest of oranges. Each bite unfolds a symphony of flavors, as the rich, creamy Pista Rabdi complements the citrusy sweetness of the jalebis. A captivating blend of textures and tastes awaits, offering a culinary experience that transcends the ordinary. Elevate your dessert affair to an opulent celebration of taste, only at our esteemed establishment.</p>
+                                            <a href="#" class="sec-btn">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="blog-box">
+                                        <div class="blog-img back-img"
+                                            style="background-image: url(assets/images/blog/1.jpg);"></div>
+                                        <div class="blog-text">
+                                            <p class="blog-date">November.15.2023</p>
+                                            <a href="#" class="h4-title">Strawberry waffle with cranberry ice cream.</a>
+                                            <p>Savor the exquisite blend of flavors with our tantalizing Strawberry Waffle topped with a luscious scoop of Cranberry Ice Cream. Each bite unfolds a symphony of sweet strawberries mingling with the tartness of cranberries, creating a harmonious delight for your senses. Immerse yourself in a culinary experience where every bite is a luxurious escape into pure decadence.</p>
+                                            <a href="#" class="sec-btn">Read More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="newsletter-sec section pt-0">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 m-auto">
+                                    <div class="newsletter-box text-center back-img white-text"
+                                        style="background-image: url(assets/images/newsletter.jpg);">
+                                        <div class="bg-overlay dark-overlay"></div>
+                                        <div class="sec-wp">
+                                            <div class="newsletter-box-text">
+                                                <h2 class="h2-title">Subscribe our newsletter</h2>
+                                                <p>Subscribe here to get our latest sweet discoveries!</p>
+                                            </div>
+                                            <form action="#" class="newsletter-form">
+                                                <input type="email" class="form-input"
+                                                    placeholder="Enter your Email Here" required>
+                                                <button type="submit" class="sec-btn primary-btn">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- footer starts  -->
+            <footer class="site-footer" id="contact">
+                <div class="top-footer section">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="footer-info">
+                                        <div class="footer-logo">
+                                            <a href="index.html">
+                                                <img src="logo.png" alt="">
+                                            </a>
+                                        </div>
+                                        <p>Whether you need any help or need to express your valueable thoughts, we are available 24x7 at your service here!
+                                        </p>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-facebook-f"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-phone"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="footer-flex-box">
+                                        <div class="footer-table-info">
+                                            <h3 class="h3-title">open hours</h3>
+                                            <ul>
+                                                <li><i class="uil uil-clock"></i> Mon-Thurs : 9am - 22pm</li>
+                                                <li><i class="uil uil-clock"></i> Fri-Sun : 11am - 22pm</li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu food-nav-menu">
+                                            <h3 class="h3-title">Links</h3>
+                                            <ul class="column-2">
+                                                <li>
+                                                    <a href="#home" class="footer-active-menu">Home</a>
+                                                </li>
+                                                <li><a href="#about">About</a></li>
+                                                <li><a href="#menu">Menu</a></li>
+                                                <li><a href="#gallery">Gallery</a></li>
+                                                <li><a href="#blog">Blog</a></li>
+                                                <li><a href="#contact">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu">
+                                            <h3 class="h3-title">Company</h3>
+                                            <ul>
+                                                <li><a href="#">Terms & Conditions</a></li>
+                                                <li><a href="#">Privacy Policy</a></li>
+                                                <li><a href="#">Cookie Policy</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <div class="copyright-text">
+                                    <p>Copyright &copy; 2024 <span class="name">Vedanta.</span> All Rights Reserved.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="scrolltop"><i class="uil uil-angle-up"></i></button>
+                    </div>
+                </div>
+            </footer>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jquery  -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- fontawesome  -->
+    <script src="assets/js/font-awesome.min.js"></script>
+
+    <!-- swiper slider  -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- mixitup -- filter  -->
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+
+    <!-- fancy box  -->
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+
+    <!-- parallax  -->
+    <script src="assets/js/parallax.min.js"></script>
+
+    <!-- gsap  -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- scroll trigger  -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- scroll to plugin  -->
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- rellax  -->
+    <!-- <script src="assets/js/rellax.min.js"></script> -->
+    <!-- <script src="assets/js/rellax-custom.js"></script> -->
+    <!-- smooth scroll  -->
+    <script src="assets/js/smooth-scroll.js"></script>
+    <!-- custom js  -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
